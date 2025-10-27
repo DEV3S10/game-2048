@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.game2048.HelloController"
+            prefWidth="450" prefHeight="600"
+            style="-fx-background-color: #faf8ef;">
+
+    <children>
+        <Label text="2048" layoutX="30" layoutY="20"
+               style="-fx-font-size: 40px; -fx-font-weight: bold; -fx-text-fill: #776e65;"/>
+
+        <Label text="Score:" layoutX="280" layoutY="30"
+               style="-fx-font-size: 20px; -fx-text-fill: #776e65;"/>
+        <Label fx:id="scoreLabel" text="0" layoutX="350" layoutY="30"
+               style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #776e65;"/>
+
+        <Button fx:id="restartButton" text="Restart"
+                layoutX="170" layoutY="70"
+                style="-fx-background-color: #8f7a66; -fx-text-fill: white; -fx-font-weight: bold;"/>
+
+        <GridPane fx:id="gridPane"
+                  layoutX="25" layoutY="120"
+                  hgap="10" vgap="10"
+                  alignment="CENTER"
+                  style="-fx-background-color: #bbada0; -fx-padding: 10; -fx-background-radius: 10;">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+        </GridPane>
+    </children>
+</AnchorPane>
