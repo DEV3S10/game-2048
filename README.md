@@ -37,3 +37,5 @@
 | Движение вправо | ➡️ / `D` |
 | Перезапуск | Кнопка **Restart** |
 | Свайпы | Мышью или пальцем по направлению |
+
+video: https://drive.google.com/file/d/1XlH1Fpm4AP3wY5oQTEvZjLiNVfUyiDcU/view?usp=drivesdk
